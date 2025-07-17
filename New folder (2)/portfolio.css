@@ -1,0 +1,51 @@
+body {
+    background: linear-gradient(to right, #ffb6c1, #9370db); /* light pink to medium purple */
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+    color: #4b0082; /* deep purple */
+  }
+  
+  .profile {
+    background-color: rgb(162, 48, 207);
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  }
+  
+  .profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #da70d6; /* orchid */
+  }
+  
+  .name {
+    font-size: 2em;
+    margin-top: 20px;
+    color: #c71585; /* medium violet red */
+  }
+  
+  .bio {
+    font-size: 1em;
+    margin: 20px 0;
+    color: #6a0dad; /* dark purple */
+  }
+  
+  .contact-btn {
+    background-color: #ba55d3; /* medium orchid */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .contact-btn:hover {
+    background-color: #8a2be2; /* blue violet */
+  }
