@@ -71,8 +71,8 @@ nav a:hover {
 }
 
 .cell {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   background: #5c3b29;
   color: #fff;
   font-size: 2rem;
